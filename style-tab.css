@@ -56,10 +56,9 @@ button:hover{
     float: left;
 }
 
-footer{
+.footer{
     background-color: rgb(24, 24, 24);
     width: 100%;
-    display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -82,4 +81,12 @@ footer{
 container span{
     font-weight: 100px;
     text-decoration: underline;
+}
+p{
+    color: rgb(138, 138, 138);
+}
+container{
+    width: 60%; 
+    height: 100%; 
+    padding: 5%;
 }
