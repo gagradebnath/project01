@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The gamerX</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="style-tab.css">
+    <link rel="stylesheet" media="screen and (max-width: 350px)" href="style-mob.css">
 </head>
 <body style="background-color:black">
-    <div style = "background-image:url(hero.jpg); background-size: cover; background-repeat: no-repeat; background-position:center;">
+    <div style = "background-image:url(hero.jpg); background-size: cover; background-repeat: no-repeat; background-position:center; width: 100%; height: 100%; display:flexbox;">
         <div>
             <button >Signup</button> 
             <button style="background-color: rgb(218, 0, 0);">Login</button>
@@ -38,20 +40,23 @@
     <br>
 
     <p id="games" style="text-align:center; font-size:2em;">GAMES<hr></p>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(34, 34, 34); display: flex;">
+    <div class="text">
         
         <img src="hero.jpg" class="img">
         <container style="float: right; width: 60%; height: 100%; padding: 5%;"> 
-           
+           <p>
+                <span>GOD OF WAR</span>
+           </p>
+
         </container>
     </div>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(39, 39, 39); display: flex;">
+    <div class="text">
         <container style="float: left; width: 60%; height: 100%"> 
         </container>
         <img src="hero.jpg" class="img">
 
     </div>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(34, 34, 34); display: flex;">
+    <div class="text">
         
         <img src="hero.jpg" class="img">
         <container style="float: right; width: 60%; height: 100%; padding: 5%;"> 
@@ -60,20 +65,20 @@
     </div>
 
     <p id="softwares" style="text-align:center; font-size:2em;text-overflow: clip;"> SOFTWARES <hr></p>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(39, 39, 39); display: flex;">
+    <div class="text">
         <container style="float: left; width: 60%; height: 100%"> 
         </container>
         <img src="hero.jpg" class="img">
 
     </div>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(34, 34, 34); display: flex;">
+    <div class="text">
         
         <img src="hero.jpg" class="img">
         <container style="float: right; width: 60%; height: 100%; padding: 5%;"> 
            
         </container>
     </div>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(39, 39, 39); display: flex;">
+    <div class="text">
         <container style="float: left; width: 60%; height: 100%"> 
         </container>
         <img src="hero.jpg" class="img">
@@ -81,20 +86,20 @@
     </div>
 
     <p id="about" style="text-align:center; font-size:2em;">ABOUT <hr></p>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(34, 34, 34); display: flex;">
+    <div class="text">
         
         <img src="hero.jpg" class="img">
         <container style="float: right; width: 60%; height: 100%; padding: 5%;"> 
            
         </container>
     </div>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(39, 39, 39); display: flex;">
+    <div class="text">
         <container style="float: left; width: 60%; height: 100%"> 
         </container>
         <img src="hero.jpg" class="img">
 
     </div>
-    <div style="margin: 3%; border-radius: 20px; background-color: rgb(34, 34, 34); display: flex;">
+    <div class="text">
         
         <img src="hero.jpg" class="img">
         <container style="float: right; width: 60%; height: 100%; padding: 5%;"> 
@@ -104,7 +109,7 @@
 
 
     <p id="support" style="text-align:center; font-size:2em;text-overflow: clip;"> SUPPORT<hr></p>
-    <div  style="margin: 3%; border-radius: 20px; background-color: rgb(39, 39, 39); display: flex;">
+    <div  class="text">
         <container style="float: left; width: 60%; height: 100%"> 
         </container>
         <img src="hero.jpg" class="img">
