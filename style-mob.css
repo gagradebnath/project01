@@ -26,6 +26,7 @@ a:hover{
     padding-top: 2%;
     padding-bottom:2%;
     margin-bottom: 5%;
+    text-overflow: clip;
 }
 
 button{
