@@ -52,7 +52,6 @@ button:hover{
 
 .img{
     width: 40%; 
-    height:350px; 
     object-fit: cover; 
     float: left;
 }
