@@ -80,14 +80,16 @@ button:hover{
 container span{
     font-weight: 100px;
     text-decoration: underline;
+    color: white;
 }
 p{
     color: rgb(138, 138, 138);
 }
-container{
+.container{
     width: 60%; 
     height: 100%; 
     padding: 5%;
+    color: rgb(138, 138, 138);
 }
 input{
     background-color: rgb(134, 134, 134);
